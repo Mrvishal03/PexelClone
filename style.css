@@ -344,7 +344,15 @@ header .buttons i:last-child:hover {
     text-decoration: none;
     font-size: 10px;
   }
-  
+  .nav {
+    flex-direction: column;
+}
+
+.menu_items {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+}
 }
 
 
