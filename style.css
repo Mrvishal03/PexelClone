@@ -300,6 +300,8 @@ header .buttons i:last-child:hover {
   height: 100%;
   object-fit: contain;
 }
+/* Login / SignUP  */
+ 
 
 @media screen and (max-width: 688px) {
   .lightbox .wrapper {
@@ -334,7 +336,7 @@ header .buttons i:last-child:hover {
     padding: 10px 25px;
     font-size: 1.05rem;
   }
-  .container .nav_brand
+  .container .nav
   {
     color: #f2f2f2;
     text-align: center;
@@ -346,18 +348,5 @@ header .buttons i:last-child:hover {
 }
 
 
-
-/* 
-
-
-const downloadImg = (imgUrl) => {
-  // creating  download link, & downloading it
-    fetch(imgUrl).then(res => res.blob()).then(file => { //A blob object is simply a group of bytes that holds the data stored in a file
-       const a = document.createElement("a");
-       a.href = URL.createObjectURL(file);
-       a.download = new Date().getTime();
-       a.click();
-   }).catch(() => alert("Failed to download image!"));
-} */
 
 
